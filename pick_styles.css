@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sams-serif;
+  
+  }
+  
+  body{
+    background: pink;
+    width: 100vw;
+    height; 100vh;
+  }
+  
+  .card {
+    position: relative;
+    width: 500px;
+    height: 230px;
+    padding: 15px;
+    background: blue;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card h2 {
+    z-index: 90;
+    position: absolute;
+    bottom: 25px;
+    right: 130px;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    pointer-events: none;
+    transition: 0.2s ease;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .card p {
+    z-index: 99;
+    position: absolute;
+    bottom: 30px;
+    right: 130px;
+    width: 150px;
+    color: black;
+    opacity: 0;
+    font-size: 12px;
+    text-align: right;
+    letter-spacing: 1px;
+    transition: 00.2s ease;
+  }
+  
+  .card span {
+    z-index: 99;
+    position: absolute;
+    top: 60px;
+    right: 35px;
+    color: red;
+    font-size: 12px;
+    letter-spacing: 1px;
+    writing-mode: vertical-lr;
+    opacity: 1;
+    transition: 00.2s ease;
+  }
+  
+  .card pic {
+    z-index: 100;
+    width: 395px;
+    height: 200px;
+    background-image: url(https://cdn.mos.cms.futurecdn.net/8Zw7hWD5ZaquyftsRbEmof-1200-80.jpg);
+    background-size: cover;
+    border-radius: 12px;
+    filter: grayscale(100%);
+    transition: 0.3s ease;
+  }
+  
+  .card2 pic {
+    z-index: 100;
+    width: 395px;
+    height: 200px;
+    background-image: url(https://cdn.mos.cms.futurecdn.net/8Zw7hWD5ZaquyftsRbEmof-1200-80.jpg);
+    background-size:cover;
+    border-radius: 12px;
+    filter: grayscale(100%);
+    transition: 0.3s ease;
+  }
+  
+  .card3 pic {
+    z-index: 100;
+    width: 395px;
+    height: 200px;
+    background-image: url(https://cdn.mos.cms.futurecdn.net/8Zw7hWD5ZaquyftsRbEmof-1200-80.jpg);
+    background-size: cover;
+    border-radius: 12px;
+    filter: grayscale(100%);
+    transition: 0.3s ease;
+  }
+  
+  .card4 pic {
+    z-index: 100;
+    width: 395px;
+    height: 200px;
+    background-image: url(https://cdn.mos.cms.futurecdn.net/8Zw7hWD5ZaquyftsRbEmof-1200-80.jpg);
+    background-size: cover;
+    border-radius: 12px;
+    filter: grayscale(100%);
+    transition: 0.3s ease;
+  }
+  
+  .card button {
+    position: absolute;
+    right: 35px;
+    bottom: 40px;
+    width: 38px;
+    height: 38px;
+    background: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    opacity: 3;
+    transition: 00.3s ease;
+  }
+  
+  .card:hover button {
+    transform: scale(36.5);
+    opacity: 0.5s;
+  }
+  
+  .card:hover h2 {
+    bottom: 100px;
+    right: 50px;
+  }
+  
+  .card:hover p {
+    bottom: 40px;
+    right: 60px;
+    opacity: 1;
+  }
+  
+  .card::hover span {
+    opacity: 0;
+  }
+  
+  .card:hover .pic {
+    filter:grayscale(0);
+    width: 470px;
+  }
+  
+  
